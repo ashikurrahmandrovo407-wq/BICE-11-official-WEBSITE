@@ -1,0 +1,128 @@
+{
+  "siteTitle": "BICE 25",
+  "menu": {
+    "semesters": [
+      "Semester 1", "Semester 2", "Semester 3", "Semester 4", 
+      "Semester 5", "Semester 6", "Semester 7", "Semester 8"
+    ]
+  },
+  "examNotice": {
+    "title": "⚠️ Exam Notice",
+    "message": "Final examinations will commence on December 15, 2024. Please check the detailed schedule on the notice board below. All students must carry their ID cards."
+  },
+  "notices": [
+    { "date": "December 1, 2024", "title": "Winter break schedule announced - Classes resume January 8, 2025", "color": "indigo" },
+    { "date": "November 28, 2024", "title": "Project submission deadline extended to December 10, 2024", "color": "green" },
+    { "date": "November 25, 2024", "title": "Guest lecture on Advanced Computing - December 5, 2024 at 2:00 PM", "color": "yellow" },
+    { "date": "November 20, 2024", "title": "Library will remain open 24/7 during exam week", "color": "purple" }
+  ],
+  "faculty": {
+    "semesterTitle": "1st Year 2nd Semester",
+    "courses": [
+      {
+        "courseName": "Electronic Devices (ICE-1203)",
+        "credit": "3.00",
+        "color": "indigo",
+        "instructors": [
+          { "name": "Saiful Islam", "designation": "Assistant Professor, ICT", "phone": "01769-028705", "email": "saifulislam@bup.edu.bd" }
+        ]
+      },
+      {
+        "courseName": "Electronic Devices Lab (ICE-1204)",
+        "credit": "1.50",
+        "color": "green",
+        "instructors": [
+          { "name": "Saiful Islam", "designation": "Assistant Professor, ICT", "phone": "01769-028705", "email": "saifulislam@bup.edu.bd" },
+          { "name": "Md. Sharjis Ibne Wadud", "designation": "Lecturer, DBPT, DU", "phone": "01738539154", "email": "sharjis@du.ac.bd" }
+        ]
+      },
+      {
+        "courseName": "Structured Programming (ICE-1205)",
+        "credit": "3.00",
+        "color": "purple",
+        "instructors": [
+          { "name": "Nusrat Tasnim", "designation": "Lecturer, ICT", "phone": "01769021828", "email": "nusrat.tasnim@bup.edu.bd" }
+        ]
+      },
+      {
+        "courseName": "Structured Programming Lab (ICE-1206)",
+        "credit": "1.50",
+        "color": "yellow",
+        "instructors": [
+          { "name": "Nusrat Tasnim", "designation": "Lecturer, ICT", "phone": "01769021828", "email": "nusrat.tasnim@bup.edu.bd" },
+          { "name": "Nazneen Akter", "designation": "Assistant Professor, ICT", "phone": "01769021823", "email": "nazneen.akhter@bup.edu.bd" }
+        ]
+      },
+      {
+        "courseName": "Mathematics-II (MATH-1205)",
+        "credit": "3.00",
+        "color": "red",
+        "instructors": [
+          { "name": "Col Mohammed Omar Faruque, PhD", "designation": "Chairman, ICT", "phone": "01769021805", "email": "chairman.ict@bup.edu.bd" },
+          { "name": "Dr. Mohammed Nasir Uddin", "designation": "Professor, ICT", "phone": "01769028700", "email": "nasiruddin@bup.edu.bd" }
+        ]
+      },
+      {
+        "courseName": "Foreign Language (LANG-1207)",
+        "credit": "3.00",
+        "color": "blue",
+        "instructors": [
+          { "name": "Center for Modern Language", "designation": "Instructor", "phone": "", "email": "" }
+        ]
+      },
+      {
+        "courseName": "Discrete Mathematics (ICE-1207)",
+        "credit": "3.00",
+        "color": "pink",
+        "instructors": [
+          { "name": "Dr. Md. Humayun Kabir", "designation": "Professor, CSE, JU", "phone": "01726035620", "email": "hkabir@juniv.edu" }
+        ]
+      },
+      {
+        "courseName": "Communicative English (ENG-1202)",
+        "credit": "1.50",
+        "color": "teal",
+        "instructors": [
+          { "name": "Mohiuddin Ahmmad Sujan", "designation": "Lecturer, MIST", "phone": "", "email": "" },
+          { "name": "Saiful Islam", "designation": "Assistant Professor, ICT", "phone": "", "email": "saifulislam@bup.edu.bd" },
+          { "name": "Sharmeen Jahan Seema", "designation": "Lecturer, ICT", "phone": "", "email": "sharmeen_seema@bup.edu.bd" }
+        ]
+      },
+      {
+        "courseName": "Statistics and Probability (GED-1203)",
+        "credit": "3.00",
+        "color": "orange",
+        "instructors": [
+          { "name": "Dr. Mohammad Shahed Masud", "designation": "Professor, ISRT, DU", "phone": "01819987698", "email": "smasud@isrt.ac.bd" }
+        ]
+      }
+    ]
+  },
+  "runningCourses": {
+    "title": "Running Semester Courses",
+    "semester": "1st Year 2nd Semester",
+    "summary": "Total Credits: 22.50 (Theory: 18.00, Lab: 4.50) | Weekly Contact Hours: 27",
+    "courseList": [
+      { "title": "Electronic Devices and Circuit", "code": "ICE-1203", "credit": "3.00 (Theory)", "contact": "3", "prereq": "ICE-1103", "color": "indigo" },
+      { "title": "Electronic Devices Lab", "code": "ICE-1204", "credit": "1.50 (Lab)", "contact": "3", "prereq": "ICE-1104", "color": "green" },
+      { "title": "Structured Programming", "code": "ICE-1205", "credit": "3.00 (Theory)", "contact": "3", "prereq": "None", "color": "purple" },
+      { "title": "Structured Programming Lab", "code": "ICE-1206", "credit": "1.50 (Lab)", "contact": "3", "prereq": "None", "color": "yellow" },
+      { "title": "Mathematics-II", "code": "MATH-1205", "credit": "3.00 (Theory)", "contact": "3", "prereq": "MATH-1107", "color": "red" },
+      { "title": "Foreign Language", "code": "LANG-1207", "credit": "3.00 (Theory)", "contact": "3", "prereq": "None", "color": "blue" },
+      { "title": "Discrete Mathematics", "code": "ICE-1207", "credit": "3.00 (Theory)", "contact": "3", "prereq": "None", "color": "pink" },
+      { "title": "Communicative English", "code": "ENG-1201", "credit": "1.50 (Lab)", "contact": "3", "prereq": "None", "color": "teal" },
+      { "title": "Statistics and Probability", "code": "GED-1203", "credit": "3.00 (Theory)", "contact": "3", "prereq": "None", "color": "orange" }
+    ]
+  },
+  "calendar": {
+    "title": "Academic Calendar - December 2024",
+    "startDayIndex": 0,
+    "totalDays": 31,
+    "events": {
+      "15": { "label": "Exam Start", "color": "red" },
+      "10": { "label": "Project Due", "color": "yellow" },
+      "5": { "label": "Guest Lecture", "color": "green" },
+      "1": { "label": "Holiday", "color": "indigo" }
+    }
+  }
+}
