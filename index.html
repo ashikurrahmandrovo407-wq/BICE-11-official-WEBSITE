@@ -870,6 +870,30 @@
   <p>
     © 2025 — Developed by <span class="font-bold text-black">Dhrubo</span>. All rights reserved.
   </p>
+  <script>
+document.querySelectorAll('.card-3d').forEach(card => {
+  let rect;
+
+  card.addEventListener('mouseenter', () => {
+    rect = card.getBoundingClientRect();
+  });
+
+  card.addEventListener('mousemove', e => {
+    const x = e.clientX - rect.left;
+    const y = e.clientY - rect.top;
+
+    const rx = ((y / rect.height) - 0.5) * -14;
+    const ry = ((x / rect.width) - 0.5) * 14;
+
+    card.style.transform =
+      `rotateX(${rx}deg) rotateY(${ry}deg) translateY(-14px) scale(1.03)`;
+  });
+
+  card.addEventListener('mouseleave', () => {
+    card.style.transform = '';
+  });
+});
+  </script>
 </footer>
 </div>
 </body>
